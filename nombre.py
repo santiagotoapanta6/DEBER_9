@@ -1,0 +1,32 @@
+import turtle
+import os 
+ 
+win=turtle.Screen()
+win.bgcolor("blue")
+t = turtle.Pen()
+t.reset()
+t.color(1,0,0)
+t.begin_fill()
+t.forward(20)
+t.left(90)
+t.forward(40)
+t.left(0)
+t.forward(20)
+t.right(90)
+t.forward(20)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(20)
+t.right(90)
+t.forward(30)
+t.right(90)
+t.forward(20)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(40)
+t.end_fill()
+
+
+turtle.getscreen()._root.mainloop()
